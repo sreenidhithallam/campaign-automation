@@ -1,4 +1,4 @@
-<h2 align="center">Automation</h2>
+<h2 align="center"> Campaign Automation</h2>
 
 ## Overview
 Volvocars has saved more than a million lives with its three-point seat belt and we are on a mission  to save a million more lives, starting with this campaign. As the test lead for the campaign  team and I have setup a set of automated test suite using webdriverio to initiate the automation phase as a part of this assignment.  
