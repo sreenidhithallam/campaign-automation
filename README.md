@@ -6,14 +6,11 @@ Volvocars has saved more than a million lives with its three-point seat belt and
 
 ## Highlights
 
-- The application is accessible by both [GraphQL](https://graphql.org/) and [REST](https://restfulapi.net/) endpoints.
-- The application is also accessible via [Swagger UI](https://swagger.io/tools/swagger-ui/) Docs.
+- Setup the solution with its Dockerized image. 
+- Enabled with parallel execution of tests  
+- Reporting of the results via [allure]()
+- Documentation to reproduce th execution
 
-- Backend is developed by [Node Js](https://nodejs.org/en/download/).
-- [LokiJS](https://github.com/techfort/LokiJS) is used as an in-memory database.
-- [Prettier](https://prettier.io/) is used as a  code formatter.
-- [Eslint](https://eslint.org/) is used for lint-check.
-- [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/), [Sinon](https://sinonjs.org/) are used for testing.
 
 ## Instructions to run
 
