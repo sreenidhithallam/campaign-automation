@@ -9,7 +9,7 @@ Volvocars has saved more than a million lives with its three-point seat belt and
 - [WebDriver.io](https://webdriver.io/) is used as a primary tool for automation.
 - Solution is setup with its Dockerized image.
 - Enabled with parallel execution of tests.  
-- Visual regression testing has been enabled via WDIO - Imagine comparison service
+- Visual regression testing has been enabled via [WDIO - Imagine comparison service](https://webdriver.io/docs/wdio-image-comparison-service/).
 - Reporting of the results via [allure](http://allure.qatools.ru/).
 - Documentation to reproduce th execution.
 
