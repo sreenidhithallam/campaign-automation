@@ -6,10 +6,10 @@ Volvocars has saved more than a million lives with its three-point seat belt and
 
 ## Highlights
 
-- Setup the solution with its Dockerized image. 
-- Enabled with parallel execution of tests  
-- Reporting of the results via [allure]()
-- Documentation to reproduce th execution
+- Setup the solution with its Dockerized image.
+- Enabled with parallel execution of tests.  
+- Reporting of the results via [allure](http://allure.qatools.ru/).
+- Documentation to reproduce th execution.
 
 
 ## Instructions to run
