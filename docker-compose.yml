@@ -4,7 +4,7 @@
 version: "3"
 services:
   chrome:
-    image: selenium/node-chrome:4.0.0-beta-1-prerelease-20201208
+    image: selenium/node-chrome:94
     volumes:
       - /dev/shm:/dev/shm
     depends_on:
