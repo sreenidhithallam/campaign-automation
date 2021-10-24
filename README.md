@@ -9,7 +9,7 @@ Volvocars has saved more than a million lives with its three-point seat belt and
 - [WebDriver.io](https://webdriver.io/) is used as a primary tool for automation.
 - Solution is setup with its Dockerized image.
 - Enabled with parallel execution of tests.  
-- Visual regression testing has been enabled via [WDIO - Imagine comparison service](https://webdriver.io/docs/wdio-image-comparison-service/).
+- Visual regression testing has been enabled via [WDIO - Imagine comparison service](https://webdriver.io/docs/wdio-image-comparison-service/). ---- Bonus Point
 - Reporting of the results via [allure](http://allure.qatools.ru/).
 - Documentation to reproduce th execution.
 
@@ -67,6 +67,4 @@ $ docker build -t mytest -f Dockerfile .
   
 ##  Future Improvements
 1. Selenium and Kubernetes for Scalable Parallel Automated Tests
-2. Add Logging Framework to log to the right log files with appropriate log level.
-3. Connect to a real DB instead of in-memory DB.
-4. Integrate security scans.
+
