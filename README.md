@@ -27,7 +27,6 @@ $ cd automation
 
 ### 2. Install packages
 
-
 ```
 $ npm install
 ```
@@ -59,10 +58,11 @@ $ docker build -t mytest -f Dockerfile .
 ##  Screenshots
 
   ### Fig 1 : Allure report
-  ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookingCapacity_default.png)
+  ![Screenshot](https://github.com/sreenidhithallam/automation/blob/master/screenshots/allureReport_1.png)
+  ![Screenshot](https://github.com/sreenidhithallam/automation/blob/master/screenshots/allureReport_2.png)
   
   ### Fig 2 : Screenshot during automated test run
-  ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/setBookingCapacity.png)
+  ![Screenshot](https://github.com/sreenidhithallam/automation/blob/master/screenshots/electric.png)
   
   
 ##  Future Improvements
