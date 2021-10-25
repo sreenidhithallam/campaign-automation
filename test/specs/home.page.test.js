@@ -52,6 +52,6 @@ describe('visual regression', () => {
         await HomePage.clickElectricButton();
 
         await browser.saveScreen('electric');
-        expect(await browser.checkScreen('electric')).within(0, 1);
+        expect(await browser.checkScreen('electric')).within(0, 5);
     });
 });

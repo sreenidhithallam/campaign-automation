@@ -11,7 +11,7 @@
     "report-generate": "allure generate --clean allure-results",
     "pretest": "rimraf allure-results && rimraf allure-report && rimraf test-screenshots && rimraf wdio-logs"
   },
-  "author": "sreenidhi thallam",
+  "author": "Sreenidhi Thallam",
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.14.1",

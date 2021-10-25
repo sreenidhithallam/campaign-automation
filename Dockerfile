@@ -1,5 +1,5 @@
-FROM ianwalter/pnpm:v1.3.0
-
+FROM node:12.18.1
+LABEL maintainer="Sreenidhi Thallam"
 RUN  apt-get update \
      # See https://crbug.com/795759
      && apt-get install -yq libgconf-2-4 \
