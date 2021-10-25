@@ -1,7 +1,7 @@
 <h2 align="center"> Campaign Automation</h2>
 
 ## Overview
-Volvocars has saved more than a million lives with its three-point seat belt and they are on a mission  to save a million more lives, starting with a campaign. As a part of this assignment, I focus exclusively on this campaign automation. I have setup a set of automated test suite using webdriverio to initiate the automation journey for the campaign.
+Volvocars has saved more than a million lives with its three-point seat belt and they are on a mission  to save a million more lives, starting with this campaign. As a part of this assignment, I focus exclusively on this campaign automation. I have setup a set of automated test suite using webdriverio to initiate the automation journey for the campaign.
 
 Targetted site :  https://www.volvocars.com/intl/v/car-safety/a-million-more
 
