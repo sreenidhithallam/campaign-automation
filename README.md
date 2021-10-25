@@ -1,14 +1,14 @@
 <h2 align="center"> Campaign Automation</h2>
 
 ## Overview
-Volvocars has saved more than a million lives with its three-point seat belt and we are on a mission  to save a million more lives, starting with this campaign. As the test lead for the campaign  team and I have setup a set of automated test suite using webdriverio to initiate the automation phase as a part of this assignment.  
+Volvocars has saved more than a million lives with its three-point seat belt and we are on a mission  to save a million more lives, starting with this campaign. As the test lead for the campaign  team, I have setup a set of automated test suite using webdriverio to initiate the automation phase as a part of this assignment.  
 
 Targetted site :  https://www.volvocars.com/intl/v/car-safety/a-million-more
 
 ## Highlights
 
-- [WebDriver.io](https://webdriver.io/) is used as a primary tool for automation.
-- Solution is setup with its Dockerized image.
+- [WebdriverIO](https://webdriver.io/) is used as a primary tool for automation.
+- Solution is setup with its dockerized image.
 - Enabled parallel execution of tests.  
 - Visual regression testing has been enabled via [WDIO - Image comparison service](https://webdriver.io/docs/wdio-image-comparison-service/).
 - Reporting of the results via [allure](http://allure.qatools.ru/).
