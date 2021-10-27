@@ -1,11 +1,11 @@
 <h2 align="center"> Campaign Automation</h2>
 
-## Overview
+##  Overview
 Volvocars has saved more than a million lives with its three-point seat belt and they are on a mission  to save a million more lives, starting with this campaign. As a part of this assignment, I focus exclusively on this campaign automation. I have setup a set of automated test suite using webdriverio to initiate the automation journey for the campaign.
 
 Targetted site :  https://www.volvocars.com/intl/v/car-safety/a-million-more
 
-## Highlights
+##  Highlights
 
 - [WebdriverIO](https://webdriver.io/) is used as a primary tool for automation.
 - Solution is setup with its dockerized image.
@@ -14,7 +14,7 @@ Targetted site :  https://www.volvocars.com/intl/v/car-safety/a-million-more
 - Reporting of the results via [allure](http://allure.qatools.ru/).
 - Documentation to reproduce the execution.
 
-## Instructions to run
+##  Instructions to run
 
 ### 1. Clone the project
 ```bash
@@ -55,6 +55,38 @@ $ npm run report-open
 $ docker build -t mytest -f Dockerfile .
 ```
 
+##  Kubernetes Commands
+
+  ### command to create
+
+  ```
+  $ kubectl create -f job.yml
+  ```
+
+  ### command to see the pods
+
+  ```
+  $ kubectl get pods
+  ```
+  
+  ### command to delete
+
+  ```
+  $ kubectl delete -f job.yml
+  ```
+
+  ### command to apply
+
+  ```
+  $ kubectl apply -f job.yml
+  ```
+    
+  ### command to see logs
+
+  ```
+  $ kubectl logs -f <podName>
+  ```
+
 ##  Screenshots
 
   ### Fig 1 : Allure report
@@ -64,8 +96,14 @@ $ docker build -t mytest -f Dockerfile .
   ### Fig 2 : Screenshot during automated test run
   ![Screenshot](https://github.com/sreenidhithallam/automation/blob/master/screenshots/electric.png)
   
-   ### Fig 3 : Docker build
+  ### Fig 3 : Docker build
   ![Screenshot](https://github.com/sreenidhithallam/campaign-automation/blob/master/screenshots/docker-build.png)
+
+  ### Fig 4 : Kubernetes
+  ![Screenshot](https://github.com/sreenidhithallam/campaign-automation/blob/master/screenshots/kubernetes.png)
   
   ## Note
-  Use compatible google chrome & webdriver versions to execute the test automation. For this project, I have relied upon google chrome 94.x and chrome driver 94.x for this project.
+  Use compatible google chrome & webdriver versions to execute the test automation for testing in local machine. For this project, I have relied upon google chrome 94.x and chrome driver 94.x for this project.
+
+  ## Reference
+  https://kubernetes.io/docs/concepts/workloads/controllers/job/
