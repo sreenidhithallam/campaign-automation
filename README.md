@@ -13,6 +13,7 @@ Targetted site :  https://www.volvocars.com/intl/v/car-safety/a-million-more
 - Visual regression testing has been enabled via [WDIO - Image comparison service](https://webdriver.io/docs/wdio-image-comparison-service/).
 - Reporting of the results via [allure](http://allure.qatools.ru/).
 - Documentation to reproduce the execution.
+- Enabled parallel distributed testing with kubernetes, docker
 
 ##  Instructions to run
 
