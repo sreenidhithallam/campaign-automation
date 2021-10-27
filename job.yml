@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: campaign-automation
+spec:
+  parallelism: 3
+  completions: 6
+  template:
+    spec:
+      containers:
+      - name: campaign-automation
+        image: sreenidhithallam/campaign-automation:latest
+        command: ["npm",  "run", "test"]
+      restartPolicy: Never
+  backoffLimit: 4
