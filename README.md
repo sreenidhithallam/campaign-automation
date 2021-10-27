@@ -64,6 +64,8 @@ $ docker build -t mytest -f Dockerfile .
   ### Fig 2 : Screenshot during automated test run
   ![Screenshot](https://github.com/sreenidhithallam/automation/blob/master/screenshots/electric.png)
   
+   ### Fig 3 : Docker build
+  ![Screenshot](https://github.com/sreenidhithallam/campaign-automation/blob/master/screenshots/docker-build.png)
+  
   ## Note
-  Use compatible google chrome & webdriver versions to execute the test automation. For this project, I have relied upon google chrome 94.x and chrome driver 94.x for this project. 
-
+  Use compatible google chrome & webdriver versions to execute the test automation. For this project, I have relied upon google chrome 94.x and chrome driver 94.x for this project.
